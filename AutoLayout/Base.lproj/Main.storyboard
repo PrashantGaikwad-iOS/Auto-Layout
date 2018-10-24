@@ -17,25 +17,72 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xqz-51-fyI">
-                                <rect key="frame" x="137.5" y="154" width="100" height="100"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Prashant.png" translatesAutoresizingMaskIntoConstraints="NO" id="xqz-51-fyI">
+                                <rect key="frame" x="87.5" y="120" width="200" height="200"/>
                                 <color key="backgroundColor" red="0.98823529409999999" green="0.5450980392" blue="0.2156862745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="BjK-cd-vnL"/>
-                                    <constraint firstAttribute="height" constant="100" id="mRR-t5-8hT"/>
+                                    <constraint firstAttribute="width" constant="200" id="BjK-cd-vnL"/>
+                                    <constraint firstAttribute="height" constant="200" id="mRR-t5-8hT"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prashant Gaikwad" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Mb-OZ-1fa">
+                                <rect key="frame" x="16" y="328" width="343" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="gIJ-0E-eH3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.93333333330000001" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS Developer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1kM-Gx-rZc">
+                                <rect key="frame" x="16" y="376" width="343" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.93333333330000001" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pune" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kPJ-oZ-fyN">
+                                <rect key="frame" x="16" y="424" width="343" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.93333333330000001" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="India" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tik-Cq-dme">
+                                <rect key="frame" x="16" y="472" width="343" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.93333333330000001" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.47013372660000002" green="0.1150058102" blue="0.50252995469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Tik-Cq-dme" firstAttribute="trailing" secondItem="kPJ-oZ-fyN" secondAttribute="trailing" id="1AF-sU-2AQ"/>
+                            <constraint firstItem="kPJ-oZ-fyN" firstAttribute="trailing" secondItem="1kM-Gx-rZc" secondAttribute="trailing" id="4rM-se-Z49"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7Mb-OZ-1fa" secondAttribute="trailing" constant="16" id="A3r-Zh-r7E"/>
+                            <constraint firstItem="Tik-Cq-dme" firstAttribute="leading" secondItem="kPJ-oZ-fyN" secondAttribute="leading" id="AHz-cp-EhJ"/>
+                            <constraint firstItem="Tik-Cq-dme" firstAttribute="top" secondItem="kPJ-oZ-fyN" secondAttribute="bottom" constant="8" id="AQa-Ui-j1i"/>
                             <constraint firstItem="xqz-51-fyI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GXS-eC-4K4"/>
-                            <constraint firstItem="xqz-51-fyI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" priority="250" constant="134" id="xho-cf-aZ9"/>
+                            <constraint firstItem="1kM-Gx-rZc" firstAttribute="trailing" secondItem="7Mb-OZ-1fa" secondAttribute="trailing" id="Oc8-L1-OAa"/>
+                            <constraint firstItem="1kM-Gx-rZc" firstAttribute="height" secondItem="7Mb-OZ-1fa" secondAttribute="height" id="Tso-0B-toU"/>
+                            <constraint firstItem="kPJ-oZ-fyN" firstAttribute="top" secondItem="1kM-Gx-rZc" secondAttribute="bottom" constant="8" id="Z3Y-fK-vbZ"/>
+                            <constraint firstItem="kPJ-oZ-fyN" firstAttribute="height" secondItem="1kM-Gx-rZc" secondAttribute="height" id="aq7-d0-gs0"/>
+                            <constraint firstItem="Tik-Cq-dme" firstAttribute="height" secondItem="kPJ-oZ-fyN" secondAttribute="height" id="gRq-7O-wGw"/>
+                            <constraint firstItem="1kM-Gx-rZc" firstAttribute="leading" secondItem="7Mb-OZ-1fa" secondAttribute="leading" id="iMy-E9-aJf"/>
+                            <constraint firstItem="kPJ-oZ-fyN" firstAttribute="leading" secondItem="1kM-Gx-rZc" secondAttribute="leading" id="jNB-V9-gyt"/>
+                            <constraint firstItem="7Mb-OZ-1fa" firstAttribute="top" secondItem="xqz-51-fyI" secondAttribute="bottom" constant="8" id="nKj-pB-kbs"/>
+                            <constraint firstItem="7Mb-OZ-1fa" firstAttribute="centerX" secondItem="xqz-51-fyI" secondAttribute="centerX" id="p7k-2k-e9g"/>
+                            <constraint firstItem="1kM-Gx-rZc" firstAttribute="top" secondItem="7Mb-OZ-1fa" secondAttribute="bottom" constant="8" id="x1m-DM-MOZ"/>
+                            <constraint firstItem="xqz-51-fyI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" priority="250" constant="100" id="xho-cf-aZ9"/>
+                            <constraint firstItem="7Mb-OZ-1fa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="zFd-CE-m8n"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Prashant.png" width="416" height="414"/>
+    </resources>
 </document>
