@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -14,11 +14,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutoLayout" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Prashant.png" translatesAutoresizingMaskIntoConstraints="NO" id="xqz-51-fyI">
-                                <rect key="frame" x="87.5" y="120" width="200" height="200"/>
+                                <rect key="frame" x="60" y="120" width="200" height="200"/>
                                 <color key="backgroundColor" red="0.98823529409999999" green="0.5450980392" blue="0.2156862745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="BjK-cd-vnL"/>
@@ -26,7 +26,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prashant Gaikwad" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Mb-OZ-1fa">
-                                <rect key="frame" x="16" y="328" width="343" height="40"/>
+                                <rect key="frame" x="16" y="328" width="288" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="gIJ-0E-eH3"/>
                                 </constraints>
@@ -35,19 +35,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS Developer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1kM-Gx-rZc">
-                                <rect key="frame" x="16" y="376" width="343" height="40"/>
+                                <rect key="frame" x="16" y="376" width="288" height="40"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.93333333330000001" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pune" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kPJ-oZ-fyN">
-                                <rect key="frame" x="16" y="424" width="343" height="40"/>
+                                <rect key="frame" x="16" y="424" width="288" height="40"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.93333333330000001" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="India" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tik-Cq-dme">
-                                <rect key="frame" x="16" y="472" width="343" height="40"/>
+                                <rect key="frame" x="16" y="472" width="288" height="40"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.93333333330000001" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -86,11 +86,11 @@
             <objects>
                 <viewController id="d1Y-m7-xh6" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="owk-pB-jU2">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zec-3y-xjK">
-                                <rect key="frame" x="16" y="607" width="343" height="40"/>
+                                <rect key="frame" x="16" y="420" width="288" height="40"/>
                                 <color key="backgroundColor" red="0.47013372660000002" green="0.1150058102" blue="0.50252995469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="IHK-fi-Zwh"/>
@@ -100,20 +100,20 @@
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your time is limited. So, don't waste it leaving someone else's life. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DpC-dS-mnd">
-                                <rect key="frame" x="16" y="323" width="343" height="41"/>
+                                <rect key="frame" x="16" y="229.5" width="288" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Prashant.png" translatesAutoresizingMaskIntoConstraints="NO" id="rU5-6e-fEM">
-                                <rect key="frame" x="137.5" y="46" width="100" height="100"/>
+                                <rect key="frame" x="110" y="46" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="dNl-iq-7on"/>
                                     <constraint firstAttribute="height" constant="100" id="nUf-aN-UtF"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prashant Gaikwad" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ymk-Vy-teH">
-                                <rect key="frame" x="118.5" y="154" width="138" height="20.5"/>
+                                <rect key="frame" x="91" y="154" width="138" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -144,30 +144,30 @@
             <objects>
                 <viewController id="cvU-Xe-0kH" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jVF-Ho-eNf">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="delhi.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="7jS-lo-WGe">
-                                <rect key="frame" x="0.0" y="20" width="375" height="309"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="263.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="7jS-lo-WGe" secondAttribute="height" multiplier="125:103" id="kQx-TV-YKJ"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Heading" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9D7-Vi-FcY">
-                                <rect key="frame" x="16" y="337" width="343" height="24"/>
+                                <rect key="frame" x="16" y="291.5" width="288" height="24"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1AW-8D-tY4">
-                                <rect key="frame" x="16" y="369" width="343" height="230"/>
+                                <rect key="frame" x="16" y="323.5" width="288" height="88.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UQt-aq-2c2">
-                                <rect key="frame" x="16" y="607" width="343" height="40"/>
+                                <rect key="frame" x="16" y="420" width="288" height="40"/>
                                 <color key="backgroundColor" red="0.98823529409999999" green="0.5450980392" blue="0.2156862745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Py2-m4-k8B"/>
@@ -206,22 +206,22 @@
             <objects>
                 <viewController id="SaL-ug-BrN" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yHZ-8u-4eb">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="delhi.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="3sy-O9-Tgh">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="lAz-vo-86H">
-                                <rect key="frame" x="162.5" y="35" width="50" height="50"/>
+                                <rect key="frame" x="135" y="35" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="j8e-TP-tlA"/>
                                     <constraint firstAttribute="width" constant="50" id="y8d-2I-lTG"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yBA-ar-5i5">
-                                <rect key="frame" x="16" y="597" width="343" height="50"/>
+                                <rect key="frame" x="16" y="410" width="288" height="50"/>
                                 <color key="backgroundColor" red="0.47013372660000002" green="0.1150058102" blue="0.50252995469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="8mf-qk-eB1"/>
@@ -231,8 +231,8 @@
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="703-5u-K7C">
-                                <rect key="frame" x="16" y="93" width="343" height="496"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <rect key="frame" x="16" y="93" width="288" height="309"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" red="0.034939933329999999" green="0.61192519430000003" blue="0.20677426779999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -260,6 +260,41 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="78c-5N-bo3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1104.8" y="1343.4782608695652"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pHF-BF-2n4">
+            <objects>
+                <viewController id="rP9-Lm-cHn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="26S-2n-azz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e96-Pc-5cb">
+                                <rect key="frame" x="160.5" y="20" width="143.5" height="440"/>
+                                <color key="backgroundColor" red="1" green="0.59980813087589557" blue="0.46667444460240914" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pEl-ZW-AKE">
+                                <rect key="frame" x="16" y="20" width="137" height="600"/>
+                                <color key="backgroundColor" red="0.034939933329999999" green="0.43586492640000002" blue="0.20677426779999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="pEl-ZW-AKE" firstAttribute="top" secondItem="88j-Pe-Sdt" secondAttribute="top" id="4Vn-Ly-S64"/>
+                            <constraint firstItem="88j-Pe-Sdt" firstAttribute="trailing" secondItem="e96-Pc-5cb" secondAttribute="trailing" constant="16" id="BHR-u5-H1F"/>
+                            <constraint firstItem="88j-Pe-Sdt" firstAttribute="bottom" secondItem="e96-Pc-5cb" secondAttribute="bottom" constant="20" id="LY7-nL-PMg"/>
+                            <constraint firstItem="pEl-ZW-AKE" firstAttribute="leading" secondItem="88j-Pe-Sdt" secondAttribute="leading" constant="16" id="Nxj-bN-Hhd"/>
+                            <constraint firstItem="e96-Pc-5cb" firstAttribute="leading" secondItem="pEl-ZW-AKE" secondAttribute="trailing" constant="8" id="S4p-OV-NyK"/>
+                            <constraint firstItem="pEl-ZW-AKE" firstAttribute="width" secondItem="e96-Pc-5cb" secondAttribute="width" constant="-7" id="aY1-3p-bPr"/>
+                            <constraint firstItem="e96-Pc-5cb" firstAttribute="top" secondItem="88j-Pe-Sdt" secondAttribute="top" id="u3V-7Y-yKQ"/>
+                            <constraint firstItem="88j-Pe-Sdt" firstAttribute="bottom" secondItem="pEl-ZW-AKE" secondAttribute="bottom" constant="20" id="wGr-xo-C8a"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="88j-Pe-Sdt"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9wW-VT-Odf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1869.5999999999999" y="1342.5787106446778"/>
         </scene>
     </scenes>
     <resources>
