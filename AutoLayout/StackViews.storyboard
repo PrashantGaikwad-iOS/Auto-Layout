@@ -481,7 +481,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jzo-xA-iId" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1818.840579710145" y="-725.22321428571422"/>
+            <point key="canvasLocation" x="-558" y="-670"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="J5I-VU-iKf">
@@ -549,7 +549,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P6J-Tl-mBE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2601.449275362319" y="-725.22321428571422"/>
+            <point key="canvasLocation" x="252" y="-670"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="u8a-Bi-O9i">
@@ -560,7 +560,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="0KI-0c-2UU">
-                                <rect key="frame" x="68" y="91" width="238.5" height="19"/>
+                                <rect key="frame" x="68" y="91" width="238" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cL0-vC-vtX">
